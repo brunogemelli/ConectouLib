@@ -1,0 +1,22 @@
+{
+  "name": "brunogemelli/conectou-lib",
+  "type": "library",
+  "description": "Conectou test lib",
+  "keywords": ["brunogemelli","test"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Gemelli",
+      "email": "contato@brunogemelli.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ConectouLib\\": "src/"
+    }
+  }
+}
